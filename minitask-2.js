@@ -1,4 +1,5 @@
 let totalPembelanjaan = 600000;
+let totalAkhir = 0;
 
 if (totalPembelanjaan < 500000) {
   diskon = 0;
