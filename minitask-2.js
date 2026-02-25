@@ -1,4 +1,4 @@
-let totalPembelanjaan = 400000;
+let totalPembelanjaan = 600000;
 
 if (totalPembelanjaan < 500000) {
   diskon = 0;
@@ -9,5 +9,6 @@ if (totalPembelanjaan < 500000) {
 }
 
 totalAkhir = totalPembelanjaan - diskon;
+console.log('Total Pembelanjaan', totalPembelanjaan);
 console.log('Mendapat diskon sebesar', diskon);
 console.log('Total Akhir adalah ', totalAkhir);
